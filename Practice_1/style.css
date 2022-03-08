@@ -1,0 +1,56 @@
+body{
+    background-color: #acb7ae;
+    
+}
+
+.header{
+    padding: 20px;       
+    text-align: center;
+    background-color: #e6e9f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    font-style: oblique;
+}
+
+.site_desc{
+    margin: 20px;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: garamond;
+    font-style: oblique;
+}
+
+.user_form_header{
+    margin:40px; 
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: garamond;
+    font-style: oblique;
+    border-style: dotted;
+}
+
+.user_form{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 40px;
+    border-style: double;
+    height: 560px;
+    background-color:#c2b490;
+}
+
+form{
+    text-align: justify;
+}
+
+label{
+    margin-right:10px;
+}
+
+.footer{
+    padding: 20px;       
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}

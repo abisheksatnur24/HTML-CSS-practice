@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+
+<html>
+
+<head>
+    <title> The Store </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1> The Store </h1>
+    </div>
+
+    <!-- Site Description 1 -->
+    <div>
+        <p class="site_desc"> The store that fulfills all your needs.</p>
+    </div>
+
+    <!-- Site Descrption 2 -->
+    <div>
+        <p class="site_desc">
+            Anywhere. Anytime.
+        </p>
+    </div>
+
+    <!-- User form starts here -->
+    <div>
+        <p class="user_form_header"> 
+            Interested in joining the company? 
+            <br> <br>
+            Fill in the form below....
+        </p>
+    </div>
+    
+    <!-- User form radio buttons -->
+    <div class="user_form">
+        <form>
+            <br><br>
+            <!-- Name -->
+            <label for="name"> Enter Full Name: </label>
+            <input type="username" id="username" name="username">
+
+            <br><br>
+            <!-- Email -->
+            <label for="email">Enter Email: </label>
+            <input type="email" id="email" name="email">
+
+            <br><br><br>
+            <!-- Job Type Radio Buttons -->
+            <label for="type"> What job are you applying for </label>
+            <br>
+
+            <input type="radio" name="type" value="software_engineer"> Software Engineer <br>
+
+            <input type="radio" name="type" value="Sales"> Sales 
+            <br>
+
+            <input type="radio" name="type" value="Marketing"> Marketing
+            <br>
+
+            <input type="radio" name="type" value="Store Management"> Store Management
+            <br>
+
+            <br><br>
+            <!-- Drop down question -->
+            <label for="dropdown_question">Choose a Question From the Dropdown Menu &</label>
+            <br>
+            <label for="dropdown_question">Answer it in the space provided</label>
+            <br>
+
+            <select name="dropdown_question" id="dropdown_question">
+
+                <option value="q1">Why do you want to work for The Store?</option>
+                
+                <option value="q2">Why should we hire you?</option>
+
+                <option value="q3">What are you hoping to achieve working at this company?</option>
+
+                <option value="q4">What are you most proud of in your professional life so far?</option>
+            </select>
+            <br><br>
+
+            <!-- TextArea for question -->
+            <textarea name="drop_question_answer" id="drop_question_answer" rows=
+        "7" cols="70" placeholder="Answer here....."></textarea> 
+
+            <br><br>
+
+            <!-- Submit button -->
+            <input type="submit">
+
+        </form>      
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <h6>
+            This is a made up website. Nothing on this page should be taken seriously... 
+            <br>
+            -Abi
+        </h6>      
+    </div>
+</body>  
+
+</html> 

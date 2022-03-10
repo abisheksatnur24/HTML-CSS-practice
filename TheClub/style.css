@@ -1,0 +1,12 @@
+header{
+    padding: 20px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-family: serif;
+}
+
+.banner img{
+    width: 100%;
+}
+
